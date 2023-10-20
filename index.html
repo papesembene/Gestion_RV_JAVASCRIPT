@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    .div1 {
+
+        display: flex;
+    }
+
+    .tabl {
+        margin-top: 60px;
+        margin-left: 60px;
+    }
+
+    input {
+        width: 500px;
+        height: 30px;
+    }
+
+    select {
+        width: 500px;
+        height: 30px;
+    }
+</style>
+
+<body>
+    <div class="div1">
+        <section id="sect1">
+            <h2>Gestion des Medcin</h2>
+            <form action="" id="form1">
+                <input type="text" placeholder="nom" id="nom" class="input" required>
+                <br>
+                <br>
+                <input type="text" placeholder="prenom" id="prenom" class="input" required>
+                <br><br>
+                <input type="text" placeholder="specialite" id="specialite" class="input" required>
+                <br><br>
+                <button id="btn" type="submit">Add Medcin</button>
+            </form>
+        </section> <br><br>
+        <div class="tabl">
+            <h2>Liste des Medecins</h2>
+            <table id="table1" border="2px">
+
+            </table>
+        </div>
+
+    </div>
+
+    <br>
+    <div class="div1">
+        <section id="sect2">
+
+            <h2> Gestion des Rendez vous</h2>
+            <form action="" id="form2">
+                <select name=""></select>
+                <br><br>
+                <input type="text" placeholder="le Patient" id="patient" class="input" required>
+                <br><br>
+                <input type="date" placeholder="la date" id="date" class="input" required>
+                <br><br>
+                <input type="time" placeholder="heure" id="heure" class="input" required>
+                <br><br>
+                <textarea name="" id="diagnostic" cols="30" rows="5" placeholder="diagnostic"></textarea>
+                <br>
+                <button id="button" type="submit">Add Rendez vous</button>
+            </form>
+        </section> <br>
+        <div class="tabl">
+            <h2>Liste des Rendez-vous</h2>
+            <table border="2px" id="table2">
+
+            </table>
+        </div>
+
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
